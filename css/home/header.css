@@ -1,0 +1,8 @@
+/* Header Styles */
+header {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 1.5em;
+}

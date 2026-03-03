@@ -1,0 +1,48 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    #destinations, #tips, #gallery, #food, #culture {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .destination {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .gallery img {
+        max-width: 120px;
+        height: 100px;
+    }
+
+    .more-btn {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .gallery img {
+        max-width: 100px;
+        height: 80px;
+    }
+
+    form input, form textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}

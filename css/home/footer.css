@@ -1,0 +1,10 @@
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #023e8a;
+    color: white;
+    padding: 35px; /* Slightly increased padding */
+    margin-top: 20px;
+    font-size: 1.3em; /* Slightly larger font size */
+    height: 120px; /* Increased height for more space */
+}

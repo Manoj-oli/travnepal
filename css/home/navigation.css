@@ -1,0 +1,25 @@
+/* Navigation Styles */
+nav {
+    background: #023e8a;
+    padding: 40px; /* Increased padding for a taller navbar */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Increased gap between menu items */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em

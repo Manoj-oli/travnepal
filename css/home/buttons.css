@@ -1,0 +1,20 @@
+/* Buttons Styles */
+.more-btn, button {
+    background-color: #0077b6;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s ease-in-out;
+}
+
+.more-btn:hover, button:hover {
+    background-color: #005f8a;
+}
+
+button {
+    font-size: 1em;
+    padding: 12px;
+}
